@@ -11,7 +11,7 @@ const Header = () => {
             <Image src={assets.profileAdil} alt='img' className='rounded-full w-32 lg:w-40 h-32 lg:h-40 overflow-hidden border-4 border-blue-900'/>
         </motion.div>
         <motion.h3 initial={{y: -20, opacity: 0  }} whileInView={{y: 0, opacity: 1}} transition={{ duration: 0.6, delay: 0.3}} className='flex flex-end gap-2 text-xl md:text-2xl mb-3 font-Ovo'>Hi! I'm Adil Ahamed
-            <Image src={assets.hand_icon} alt='img' className='w-6'/>
+            {/* <Image src={assets.hand_icon} alt='img' className='w-6'/> */}
             </motion.h3>
             <motion.h1 initial={{y: -30, opacity: 0  }} whileInView={{y: 0, opacity: 1}} transition={{ duration: 0.8, delay: 0.5}} className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>Mern Stack Developer</motion.h1>
             <motion.p initial={{opacity: 0  }} whileInView={{opacity: 1}} transition={{ duration: 0.6, delay: 0.7}} className='max-w-2xl mx-auto font-Ovo'>
